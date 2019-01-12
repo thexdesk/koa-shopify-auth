@@ -375,7 +375,7 @@ export default function createEnableCookies({apiKey, prefix}: OAuthStartOptions)
       function setCookieAndRedirect() {
         document.cookie = "shopify.cookies_persist=true";
         //window.location.href = window.shopOrigin + "/admin/apps/" + window.apiKey;
-        window.location.href = "https://${host}/${inlineOAuthPath}?${queryString}"
+        window.location.href = "https://${host}${inlineOAuthPath}?${queryString}"
       }
 
       function shouldDisplayPrompt() {
