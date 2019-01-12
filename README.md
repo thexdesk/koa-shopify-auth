@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.org/Shopify/quilt.svg?branch=master)](https://travis-ci.org/Shopify/quilt)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md) [![npm version](https://badge.fury.io/js/%40shopify%2Fkoa-shopify-auth.svg)](https://badge.fury.io/js/%40shopify%2Fkoa-shopify-auth)
 
+This is a soft fork of [@shopify/koa-shopify-auth](https://github.com/Shopify/quilt/tree/master/packages/koa-shopify-auth) that fixes one small Oauth bug.
+
 Middleware to authenticate a [Koa](http://koajs.com/) application with [Shopify](https://www.shopify.ca/).
 
 Sister module to [`@shopify/shopify-express`](https://www.npmjs.com/package/@shopify/shopify-express), but simplified.
@@ -12,7 +14,7 @@ Features you might know from the express module like the webhook middleware and 
 ## Installation
 
 ```bash
-$ yarn add @shopify/koa-shopify-auth
+$ yarn add @dimensionsoftware/koa-shopify-auth
 ```
 
 ## Usage
